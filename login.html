@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Login</title>
+</head>
+<body>
+    <form id="formLogin">
+        <div class="container mt-5 ">
+            <div id="contant" class="contant text-center shadow-lg">
+              
+                <h1 class=" title text-center mt-5 py-4 mb-4"><i class="fa-solid fa-user-pen"></i> Smart Login System <i class="fa-solid fa-user-pen"></i></h1>
+                <input type="email" class="shadow-lg m-auto mb-3 form-control bg-warning w-75" id="Email" placeholder="Entar Your email">
+                <input type="password" class="shadow-lg m-auto mb-5 form-control bg-warning w-75" id="password" placeholder="Enter Your password">
+                <div class="alert alert-danger d-none w-75 m-auto mb-2" id="alertEmailLogin"> this Email and password is incorrect </div>
+
+                <button id="login" class="shadow-lg mb-1 py-2 rounded-3  w-75">Login</button>
+                <p>Don’t have an account? <a id="singUp"  href="">sign Up</a> </p>
+
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/main.js"></script>
+            </div>
+        </div>
+    </form>

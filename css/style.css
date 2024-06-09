@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+.contant{
+    background-color:rgba(12, 17, 17, 0.59) ;
+    
+}
+.title{
+    
+    background-image: linear-gradient(to right,#f75105,gold);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+button{
+    background-color: dimgray;
+    color: gold;
+}
+button:hover{
+    color: black;
+    background-color: wheat;
+}
+p{
+    color: gold;
+}
+p a{
+    display: inline-block;
+    text-decoration: none;
+    color: darksalmon;
+    margin-bottom: 1.875rem;
+}
+.navbar-brand{
+    color: gold;
+}
+.header-contant{
+    background-color:rgba(12, 17, 17, 0.59) ;
+    width: 50rem;
+    padding: 3.125rem;
+ 
+}
+h1{
+    color: gold;
+}
+button a{
+    text-decoration: none;
+    color: gold;
+}

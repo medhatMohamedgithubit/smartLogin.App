@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>sing up</title>
+</head>
+<body>
+    <form id="smartLogin">
+        <div class="container mt-5 ">
+            <div id="contant" class="contant text-center shadow-lg">
+              
+                <h1 class=" title text-center mt-5 py-4 mb-4"><i class="fa-solid fa-user-pen"></i> Smart Login System <i class="fa-solid fa-user-pen"></i></h1>
+                <input type="text" class="shadow-lg m-auto mb-3 form-control bg-warning w-75" id="text" placeholder="Entar Your Name">
+                <input type="email" class="shadow-lg m-auto mb-3 form-control bg-warning w-75" id="Email" placeholder="Entar Your email">
+                <input type="password" class="shadow-lg m-auto mb-5 form-control bg-warning w-75" id="password" placeholder="Enter Your password">
+                <div class="alert alert-danger d-none w-75 m-auto mb-2" id="alertName"> At Least Five Characters Name </div>
+                <div class="alert alert-danger d-none w-75 m-auto mb-2" id="alertEmail"> Please Enter A Valid Email</div>
+                <div class="alert alert-danger d-none w-75 m-auto mb-2" id="alertPass"> At Least 8 Characters <br>One UpperCase At Least <br>One Special Character At Least <br>One Number At Least</div>
+                <div class="alert alert-danger d-none  w-75 m-auto mb-2" id="alertFind"> this Email is in used</div>
+                <div class="alert alert-success d-none  w-75 m-auto mb-2" id="alertCanUse"> you can use this Email</div>
+
+                <button id="sing" class="shadow-lg mb-5 py-2 rounded-3  w-75">sign up</button>
+                <p>Don’t have an account? <a id="singUp" class="d-none" href="">sign Up</a> <a id="singIn" class="d-inline-block" href="">sign in</a></p>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
