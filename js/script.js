@@ -71,7 +71,7 @@ function validate(regex,element,alert){
     }
 };
 function checkInputValid(){
-    if(validate(/^[a-zA-Z0-9$_]{5,}$/,nameInput,alertName)&&
+    if(validate(/^[a-zA-Z0-9$_]{3,}$/,nameInput,alertName)&&
     validate(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,emailInput,alertEmail)&&
     validate(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/,passwordInput,alertpassword) ==true
 ){
